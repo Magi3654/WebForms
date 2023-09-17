@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Regitro de tutorias</title>
+</head>
+<body>
+    <header class="header">
+        <h1>ITE - Registro de Tutorias 2023-2</h1>
+    </header>
+    <form action="action_page.php" method="post" >
+        <label for="no_control"> Numero de Control</label>
+        <input type="text" class= "field" id="no_control" name="no_control" required placeholder="21760123"><br/>
+        <label for="nombre">Nombre(s) Alumno</label>
+        <input type="text" class="field" id="nombre" name="nombre" required placeholder="Alan"><br/>
+        <label for="apellido">Apellido(s) del Alumno</label>
+        <input type="text" class="field" id="apellido" name="apellido" required placeholder="Rodriguez"><br/>
+        <label for="carrera">Carrera Cursando</label>
+        <input type="text" class="field" id="carrera" name="carrera" required placeholder="Sistemas"><br/>
+        <label for="telefono">Telefono de contacto </label>
+        <input type="text" class="field" id="telefono" name="telefono" required placeholder="6461234567"><br/>
+        <label for="semestre">Semestre Cursando</label>
+        <input type="text"  class="field" id="semestre" name="semestre" required placeholder="Primero"><br/>
+        <label for="asunto">Razon de Tutoria</label>
+        <textarea type="text" class="field"id="asunto" name="asunto" required placeholder="Tus razones..."></textarea><br/>
+        <label for="fecha"> Fecha</label>
+        <input type="text" class="field" id="fecha" name="fecha" required placeholder="YYYY-MM-DD"></form>
+        <button type="submit">Enviar solicitud</button>
+    </form>
+</body>
+<footer>Instituto Tecnologico de Ensenada TECNM &copy;2023</footer>
+</html>
